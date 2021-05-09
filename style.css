@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+.section-1 {
+  width: 100%;
+  min-height: 41em;
+  background: url("bg1.png") no-repeat center center/cover;
+}
+.content {
+  padding-top: 10rem;
+
+  padding-left: 6rem !important;
+  color: white;
+}
+h1 {
+  font-size: 70px !important;
+  font-family: "PT Serif", serif;
+}
+.accent {
+  font-size: 70px;
+  color: darkorange;
+}
+li {
+  font-family: "Raleway", sans-serif;
+}
