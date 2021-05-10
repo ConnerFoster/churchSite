@@ -2,10 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
-.section-1 {
+.section-landing {
   width: 100%;
   min-height: 41em;
   background: url("bg1.png") no-repeat center center/cover;
+}
+.section-about {
+  background-color: darkorange;
+  color: white;
 }
 .content {
   padding-top: 10rem;
@@ -14,7 +18,7 @@
   color: white;
 }
 h1 {
-  font-size: 70px !important;
+  font-size: 60px !important;
   font-family: "PT Serif", serif;
 }
 .accent {
@@ -23,4 +27,16 @@ h1 {
 }
 li {
   font-family: "Raleway", sans-serif;
+}
+.about-content {
+  text-align: center;
+  font-family: "Raleway", sans-serif !important;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.church {
+  border: 2px solid white;
+  border-radius: 50%;
+  height: 3rem;
+  width: auto;
 }
