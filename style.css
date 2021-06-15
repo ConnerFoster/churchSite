@@ -6,9 +6,12 @@
 html {
   scroll-behavior: smooth;
 }
+a:-webkit-any-link{
+  text-decoration:none !important;
+  }
 .section-landing {
   width: 100%;
-  min-height: 41em;
+  min-height: 55em;
   background: url("bg1.png") no-repeat center center/cover;
 }
 .section-join {
@@ -16,7 +19,7 @@ html {
   color: white;
 }
 .content {
-  padding-top: 10rem;
+  padding-top: 15rem;
 
   padding-left: 6rem !important;
   color: white;
@@ -33,7 +36,7 @@ li {
   font-family: "Raleway", sans-serif;
 }
 .join-content {
-  padding-left: 33% !important;
+  /*padding-left: 33% !important;*/
   font-family: "Roboto";
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -51,8 +54,9 @@ li {
 .about-content {
   font-family: "Roboto", sans-serif;
   padding-top: 6rem;
-  margin-bottom: -6rem;
+  /*margin-bottom: -6rem;*/
   text-align: center;
+  padding-bottom: 6rem;
 }
 .about-content button {
   background-color: darkorange; /* Green */
